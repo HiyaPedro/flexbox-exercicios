@@ -8,11 +8,25 @@
   width: 100vw;
   background-color: lightgray;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-around ;
+  
+  
 }
 
 .item {
-  border: 1px solid black;
+  border: 2px solid black;
   background-color: white;
   height: 180px;
   width: 180px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  
 }
+
+
+
